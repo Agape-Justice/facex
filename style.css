@@ -2,8 +2,8 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5;
-}
+    background-color: #fffff;
+ width:100%;}
 
 .container {
     width: 100%;
@@ -12,13 +12,13 @@
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
     text-align: center;
 }
 
-h1 {
+h2 {
     margin-bottom: 2px;
-    color: #1877f2;
+    color: #1877f2; text-align:center;
 }
 
 form {
@@ -46,4 +46,31 @@ button {
 #error-message {
     color: #ff0000;
     margin-top: 10px;
+}
+
+a{
+color:blue;
+text-decoration:none;
+margin-right:30px;
+
+}
+@media (max-width:426px){
+
+p{
+	margin-right:30px;
+	text-align:center;
+
+}
+
+
+h2{
+	margin-right:30px;
+	text-align:center;
+
+}
+
+form{
+	margin-right:30px;
+}
+
 }
